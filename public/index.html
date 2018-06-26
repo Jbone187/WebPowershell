@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WebPowershell</title>
+</head>
+<body>
+    <button id="btn">Push at Your on Risk</button>
+
+    <script>
+document.getElementById("btn").addEventListener("click", run);
+
+function run(){
+fetch("http://localhost:3000",{
+        method: "POST",
+        //what ever data you want to post with key value pair        
+        }).then( (response) => { 
+        //do something awesome that makes the world a better place
+        
+        });
+};
+</script>
+
+
+</body>
+</html>
