@@ -19,7 +19,9 @@ app.use(express.static('public'));
 /*Handle Post Request*/
 app.post('/',function(req,res){
 
+ //Run Powershell Script
 powershell();
+ 
 console.log('Hello');
 res.sendStatus(200);
  
