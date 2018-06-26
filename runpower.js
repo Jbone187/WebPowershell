@@ -6,8 +6,8 @@ let ps = new shell({
   executionPolicy: 'Bypass',
   noProfile: true
 });
- 
-let power = 'Provide Powershell Command or Script';
+ //Powershell Commands or Script
+let power = 'ls';
 
 ps.addCommand(power)
 ps.invoke()
