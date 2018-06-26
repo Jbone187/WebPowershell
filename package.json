@@ -1,5 +1,5 @@
 {
-  "name": "app",
+  "name": "webpowershell",
   "version": "0.0.1",
   "description": "webpowershell",
   "main": "Server.js",
