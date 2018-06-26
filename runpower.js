@@ -7,7 +7,7 @@ let ps = new shell({
   noProfile: true
 });
  
-let power = 'ls';
+let power = 'Provide Powershell Command or Script';
 
 ps.addCommand(power)
 ps.invoke()
